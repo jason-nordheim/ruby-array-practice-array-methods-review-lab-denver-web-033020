@@ -8,9 +8,9 @@ def array_with_two_elements
 end
 
 def first_element array
-  array.first() 
+  array.first()
 end
 
-def third_element array 
+def third_element array
   array.fetch(3)
 end 
