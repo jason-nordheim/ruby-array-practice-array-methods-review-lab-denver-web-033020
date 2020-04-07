@@ -10,3 +10,7 @@ end
 def first_element array
   array.first() 
 end
+
+def third_element array 
+  array.fetch(3)
+end 
